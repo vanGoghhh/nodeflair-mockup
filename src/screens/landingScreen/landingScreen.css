@@ -1,0 +1,37 @@
+:root {
+    background: #F3F2EF;
+  }
+.nodeflair-mockup-landingscreen-container {
+	padding: 10% 22% 22% 22%;
+    
+}
+.nodeflair-mockup-landingscreen {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2%;;
+
+	/* Center vertically and horizontally */
+}
+
+@media only screen and (max-width: 800px) {
+    .nodeflair-mockup-landingscreen-container {
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-bottom: 5%;
+        padding-top: 5%;
+    }
+	.nodeflair-mockup-landingscreen {
+        grid-template-columns: none;
+		grid-template-rows: 1fr 1fr 1fr;
+        grid-row-gap: 3%;
+		padding: 3%;
+	}
+}
+
+@media only screen and (max-width: 350px) {
+	.nodeflair-mockup-landingscreen {
+		grid-template-columns: none;
+		grid-template-rows: 1fr;
+		padding: 0px;
+	}
+}

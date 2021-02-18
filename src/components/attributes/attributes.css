@@ -1,0 +1,17 @@
+.nodeflair-mockup-attribute {
+	font-size: 16px;
+	background-color: #f1f1f1;
+	color: #838383;
+	font-family: "Roboto Mono", "Consolas", monospace;
+	font-weight: bold;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    padding: 5px 8px;
+    margin: 1% 1% 1% 0; 
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+  
+}
